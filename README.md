@@ -8,11 +8,11 @@
 ## Executive Summary
 The secondary automotive market is highly volatile, making it difficult for dealerships and consumers to establish standardized pricing. This project delivers an end-to-end data pipeline that cleans historical listing data, proves market trends statistically, and deploys a production-grade **Random Forest machine learning engine (88.1% Accuracy)** to predict real-time vehicle values.
 
-**Live Application:**https://ebay-auto-pricing-estimator-4qsmqx5fqg9hxgwxb7rzgk.streamlit.app/ 
+**Live Application:** https://ebay-auto-pricing-estimator-4qsmqx5fqg9hxgwxb7rzgk.streamlit.app/ 
 
 ---
 
-## 🛠️ Data Engineering & The "Scrub"
+## 🛠️ Data Engineering
 Real-world data is notoriously messy. To ensure the machine learning model was trained on reality rather than "data entry garbage," a rigorous, multi-step cleaning pipeline was established.
 
 ### 1. Structural Cleaning & Localization
